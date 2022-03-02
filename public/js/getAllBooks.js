@@ -18,7 +18,9 @@ fetch('/books')
         const authorName = document.createElement('span');
         const date = document.createElement('span');
         const btn = document.createElement('button');
-        btn.className = "remove-btn";
+        btn.className = "remove-btn btn";
+        div.className ='card';
+        
         btn.onclick = (e) => {
           console.log(element.id)
           deletebook(element.id) 

@@ -5,24 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favico.jpg" >
     <title>Library</title>
 </head>
 <body>
+    <h1 class="title">Library books</h1>
+    <div class="continar">
     <form action="/insertData" method="post">
-        <label for="search">Book name</label>
-        <input type="text" name="book" id="search"><br>
-        <label for="search">author name</label>
-        <select class="select" name="author_id">
-            <option value="1">author1</option>
-            <option value="2">author2</option>
-            <option value="3">author3</option>
-            <option value="4">author4</option>
-            <option value="5">author5</option>
-        </select><br>
-        <label for="date">Release Date</label>
-        <input type="text" name="date" id="date">
-        <button id="btn" type="submit">Add</button>
+        
+            <div class="bookName">
+                <label for="search">Book name</label>
+                <input type="text" name="book" id="search"><br>
+            </div>
+            <div class="bookAuthor">
+                <label for="search">author name</label>
+                <select class="select" name="author_id">
+                    <option value="1">author1</option>
+                    <option value="2">author2</option>
+                    <option value="3">author3</option>
+                    <option value="4">author4</option>
+                    <option value="5">author5</option>
+                </select><br>
+            </div>
+            <div class="date">
+                <label for="date">Release Date</label>
+                <input type="text" name="date" id="date">
+            </div>
+            <button id="btn" class="btn" type="submit">Add</button>
+        <!-- </div> -->
     </form>
+</div>
     <div class="books"></div>
     
     <script src="js/index.js"></script>
