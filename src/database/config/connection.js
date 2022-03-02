@@ -7,7 +7,7 @@ if (process.env.NODE_ENV === "test") {
 // } else if (!dbUrl) {
 //   throw new Error("No Database URL!!!"); 
 }
-if else (process.env.NODE_ENV==='production'){
+else if (process.env.NODE_ENV==='production'){
   dbUrl = process.env.DB_PRODUCTION; 
 }
 else {
