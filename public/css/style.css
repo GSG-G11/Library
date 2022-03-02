@@ -1,4 +1,68 @@
-.remove-btn{
-    height: 20px;
-    width: 60px;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://raw.githubusercontent.com/OLucky/wiki.treasure/master/css/img/bg.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+.btn{
+    outline: none;
+    width: 90px;
+    height: 25px;
+    border-radius: 7px;
+    background-color: red;
+
+}
+.btn:hover {
+    color:red ;
+    background-color: black;
+}
+ form {
+     display: inline-block;
+     margin: auto;
+     text-align: justify;
+ }
+.continar {
+    text-align: center; 
+    display: inline-block;
+    width: 510px;
+    height: 150px;
+    background-color: #000000c2;
+    padding: 25px;
+}
+.continar div {
+    margin-top: 15px;
+}
+#btn {
+    margin-top: 15px;
+    color: black;
+    background-color: green;
+}
+#btn:hover {
+    color: green;
+    background-color: black;
+}
+.books {
+    width: 510px;
+    margin: auto;
+    margin-top: 25px;
+}
+.books .card {
+    background-color: #000000c2;
+    margin-top: 15px;
+    height: 40px;
+    padding: 20px;
+    padding-top: 30px;
+}
+.books .card span{
+    display: inline-flex;
+    margin: 0px 20px;
+    max-width: 20%;
 }
