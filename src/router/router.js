@@ -5,7 +5,7 @@ const deletebook = require('../controllers/deletebook');
 const getAuthors = require('../controllers/getAuthors');
 
 const router = express.Router();
-// router.get('/a', controllers.homePage);
+
 router.get('/books', controllers.getbook);
 router.post('/insertData', addbook);
 router.delete('/delete-book/:id', deletebook);
