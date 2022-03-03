@@ -7,6 +7,9 @@ The library application is a user's library in which he keeps track of the books
 ## Heroku
 https://book--library-app.herokuapp.com/
 
+## Project Schema 
+![](https://i.imgur.com/amG7Wpk.png)
+
 ## User journey
 
 When you first open the app, you'll find a list of books that are currently available in the library, as well as a form for adding new books. To add a new book, type its title, author, and publication date into the text box, then hit the add button. The book will be added to the list. The book can be deleted by pressing the delete button next to it. 
